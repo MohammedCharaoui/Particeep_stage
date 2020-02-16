@@ -1,0 +1,65 @@
+
+1) Explain REST and RESTful
+
+	REST (Representational State Transfer) is an architectural style for services that exploits the existing technology and protocols of the Web, and as such it defines a set of architectural constraints and agreements such as :
+
+	-It should be stateless
+
+	-It should access all the resources from the server using only URI
+
+	-It does not have inbuilt encryption
+
+	-It does not have session
+
+	-It uses one and only one protocol that is HTTP
+
+	-For performing CRUD operations, it should use HTTP verbs such as get, post, put and delete
+
+	-It should return the result only in the form of JSON or XML, atom, OData etc. (lightweight data )
+
+and RESTful is typically used to refer to web services implementing such an architecture.
+
+
+2) Explain the architectural style for the creation of a web API (client server communication, formatting language, etc.)
+
+	Using an architectural style helps us to design the solution quicker than designing everything from scratch. Architectural styles are similar to patterns, but provide a solution for a larger challenge and Design patterns are best practises that can help us create software that is more maintainable, flexible and easier to understand no matter which programming language or framework. here are several design and architectural patterns that can help create web APIs : 
+	
+	-Service layer: A protocol independent interface to our application logic
+	
+	-REST: An architectural design principle for creating web APIs
+
+	-RESTful services: A service layer that follows the REST architecture and HTTP protocol methods
+
+	-Middleware: Reusable functions that can control the flow of data and trigger additional functionality when interacting with 		 REST services
+	
+	-Real-time: A set of events that can be sent automatically when following the REST architecture
+
+3) Explain HTTP requests types when used with RESTful web (GET, PUT, POST, etc.)
+
+	-GET: A safe read-only method that reads a single or a list of resources.
+
+	-POST: Creates a new resource.
+
+	-PUT: Completely replaces the resource(s) at the given location with the new data.
+
+	-PATCH: Merges the resource(s) at the given location with the new data.
+
+	-DELETE: Deletes the resource(s) at a location.
+
+	-HEAD: Same as GET but only returns the header and no data.
+
+4) Explain the difference between stateless and stateful protocol. Which type of protocol is HTTP ?
+
+	Stateless Protocols are the type of network protocols in which Client send request to the server and server response back according to current state. It does not require the server to retain session information or a status about each communicating partner for multiple request.
+
+	And in Stateful Protocol If client send a request to the server then it expects some kind of response, if it does not get any response then it resend the request.
+
+	HTTP is a Stateless protocol.
+
+5) Explain the difference between a GET and a POST (like how are sent the parameters)
+
+	The main difference between POST and GET method is that GET carries request parameter appended in URL string while POST carries request parameter in message body which makes it more secure way of transferring data from client to server in http protocol.
+
+6) You can’t work out how to solve a coding problem. What do you do to find the answer?
+
+	I would google the probleme that i have vhecking sites like Stackoverflow and others. try to read the documentation of the programming language to better understand how it works. try to find another way to solve the probleme by changing the appreach otherwise i would simply ask other coders for help.  
